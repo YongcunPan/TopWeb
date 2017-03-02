@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.slideBox .bd{overflow: hidden;height: 570px;}
+.slideBox .bd img{padding-left: 50%;margin-left: -960px;}
+.slideBox .hd{text-align: center;margin: 10px 0;}
+.slideBox .hd li{display: inline-block;width: 14px;height: 14px;background: url(../images/focus_active.png) no-repeat center center;margin: 0 4px;cursor: pointer;}
+.slideBox .hd li.on{background: url(../images/focus_normal.png) no-repeat center center;}
+
+
+.slideBoxList {margin-top: 50px;margin-bottom: 100px;}
+.slideBoxList .hd{text-align: center;}
+.slideBoxList .hd .topImg li{display: inline-block;width: 128px;height: 50px;border-right: 1px solid #d9d9d9;cursor: pointer;}
+.slideBoxList .hd .topImg li:last-child{border: none;}
+.slideBoxList .hd .topImg li:nth-of-type(1){background: url(../images/icon_01.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(2){background: url(../images/icon_02.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(3){background: url(../images/icon_03.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(4){background: url(../images/icon_04.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(5){background: url(../images/icon_05.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(6){background: url(../images/icon_06.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(7){background: url(../images/icon_07.png) no-repeat center center;}
+.slideBoxList .hd .topImg li:nth-of-type(8){background: url(../images/icon_08.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(1){background: url(../images/icon_01-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(2){background: url(../images/icon_02-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(3){background: url(../images/icon_03-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(4){background: url(../images/icon_04-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(5){background: url(../images/icon_05-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(6){background: url(../images/icon_06-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(7){background: url(../images/icon_07-on.png) no-repeat center center;}
+.slideBoxList .hd .topImg li.on:nth-of-type(8){background: url(../images/icon_08-on.png) no-repeat center center;}
+.slideBoxList .bottomImg{text-align: center;margin-bottom: 20px;}
+.slideBoxList .bottomImg li{display: inline-block;width: 128px;height: 20px;border-right: 1px solid #fff;}
+.slideBoxList .bottomImg li.active{background: url(../images/icon_on.png)no-repeat center center;}
+.slideBoxList .bd{background: #3b77d4;height: 412px;overflow: hidden;}
+.slideBoxList .bd .rightDis{width: 432px;padding: 28px;overflow: hidden;}
+.slideBoxList .bd .rightDis h1{text-align: center;font-size: 24px;margin-bottom: 20px;line-height: 36px;color: #fff;}
+.slideBoxList .bd .rightDis p{text-indent: 2em;color: #bad5ff;line-height: 24px;font-size: 14px;}
+.slideBoxList .bd .rightDis ul{margin-top: 20px;width: 450px;}
+.slideBoxList .bd .rightDis ul li{display: inline-block;text-align: center;width: 138px;height: 48px;line-height: 48px;background: #3da3f4;float: left;margin:0 10px 10px 0;}
+.slideBoxList .bd .rightDis ul li a{color: #fff;font-size: 16px;}
+.slideBoxList .bd img{width: 732px;height: 412px;}
+
+.slideParBox{margin-bottom: 100px;position: relative;}
+.slideParBox .parHd{text-align: center;border-bottom: 1px solid #b0b0b0;}
+.slideParBox .parHd li{display: inline-block;width: 120px;height: 48px;line-height: 48px;color: #fff;background: #b0b0b0;font-size: 16px;cursor: pointer;margin-right: 10px;margin-bottom: -1px;}
+.slideParBox .parHd li:last-child{margin: none;}
+.slideParBox .parHd li.on{background: #ea6360;}
+.slideParBox .sL,.slideParBox .sR{position: absolute;top:42px;width: 10px;height: 10px;}
+.slideParBox .sL{background:url(../images/sl.png) no-repeat center center;left: -1px;}
+.slideParBox .sR{background:url(../images/sr.png) no-repeat center center;right: -1px;}
+
+.slideChiBox{position: relative;margin-top: 44px;}
+.tempWrap{width: 1220px!important;}
+.slideChiBox .inbd{padding-bottom: 4px!important;}
+.slideChiBox .inbd li{display: inline-block;float: left;margin-right:43px;width: 272px;height: 200px;box-shadow: 2px 2px 4px #d6d5d5;}
+.slideChiBox .inbd img{width: 272px;height: 150px;}
+.slideChiBox .sPrev{position: absolute;left: -40px;top:74px;background: url(../images/icon-left.png) no-repeat center center;display: block;width:18px; height:34px;}
+.slideChiBox .sNext{position: absolute;right: -38px;top:74px;background: url(../images/icon-right.png) no-repeat center center;display: block;width:18px; height:34px;}
+.slideChiBox h2{font-size: 16px;font-weight: normal;line-height: 50px;padding:0 16px;}
+.slideChiBox h2 a{color: #666;}
+
+.iListModule{background: #e8e8ea;margin-bottom: 40px;}
+.iListModule li{display: inline-block;float: left;padding:0 50px 0 60px;line-height: 80px;font-size: 18px;}
+.iListModule li:nth-of-type(1){background: url(../images/icon-11.png) no-repeat left center;}
+.iListModule li:nth-of-type(2){background: url(../images/icon-12.png) no-repeat left center;}
+.iListModule li:nth-of-type(3){background: url(../images/icon-13.png) no-repeat left center;}
+.iListModule li:nth-of-type(4){background: url(../images/icon-14.png) no-repeat left center;}
+.iListModule li:nth-of-type(5){background: url(../images/icon-15.png) no-repeat left center;}
+.iListModule li.on:nth-of-type(1){background: url(../images/icon-11-on.png) no-repeat left center;}
+.iListModule li.on:nth-of-type(2){background: url(../images/icon-12-on.png) no-repeat left center;}
+.iListModule li.on:nth-of-type(3){background: url(../images/icon-13-on.png) no-repeat left center;}
+.iListModule li.on:nth-of-type(4){background: url(../images/icon-14-on.png) no-repeat left center;}
+.iListModule li.on:nth-of-type(5){background: url(../images/icon-15-on.png) no-repeat left center;}
+.iListModule li.on a{color: #eb6664;}
