@@ -35,6 +35,10 @@
 .main-content{padding:20px 0px;}
 .main-content .idetail{line-height: 30px;}
 .main-content .idetail dl{margin: 30px 0;}
+.main-content .idetail h3{font-size: 16px;margin: 20px 0;}
+.main-content .idetail h3 span{color: #e1777c;}
+.main-content .idetail p{margin: 10px 0;}
+.main-content .idetail img{margin: 10px 0;}
 
 .product h4{line-height: 55px;margin:0 0 20px 0;}
 .product img{width: 242px;height: 150px;}
