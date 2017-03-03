@@ -47,3 +47,9 @@
 .product dd{background: #828282;line-height: 56px;padding: 0 10px;font-size: 18px;}
 .product dd:hover{background: #458ce8;}
 .product a{color: #fff;}
+
+
+.main-content .idetail .itopimg{margin:0px;}
+.summary{width: 800px;}
+.ishare{margin-top: 20px;padding-top: 20px;border-top: 1px solid #ddd;}
+.imiddle{text-align: center;}
