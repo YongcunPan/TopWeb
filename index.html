@@ -2,6 +2,8 @@
 <html lang="">
 <head>
   <meta charset="UTF-8">
+  <!-- IE 兼容模式 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <title>突破电气</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/index.css">
@@ -23,7 +25,8 @@
         </ul>
       </div>
       <form action="" class="search right">
-        <div class="labels">
+      <!-- 加入clearfix清浮动 -->
+        <div class="labels clearfix">
           <label class="active"><input  name="search" type="radio" value="0" checked="checked" />天猫</label> 
           <label class=""><input  name="search" type="radio" value="1" />京东</label>
         </div>

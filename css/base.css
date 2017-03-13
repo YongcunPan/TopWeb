@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
-body{font:14px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+body{font:14px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
 a{color:#616161;text-decoration:none} 
 a:hover{color:#eb6664;} 
 em{font-style:normal} 
@@ -13,7 +13,8 @@ input,select,button{outline:none;}
 .right{float: right;}
 .clearfix:after{content: "";clear: both;display: block;}
 
-#head{margin-bottom: 20px;height: 74px;overflow: hidden;}
+/*修改高度*/
+#head{margin-bottom: 20px;height: 75px;overflow: hidden;}
 .container{width: 1220px;margin: 0 auto;}
 .logo{margin-right: 134px;}
 .logo img{display: block;margin-top:24px;}
@@ -24,7 +25,8 @@ input,select,button{outline:none;}
 .menu .active{background: url(../images/menubg.png) no-repeat top left;}
 .menu .active a{color: #fff;}
 
-.search{margin-top: 10px;}
+/*定宽*/
+.search{margin-top: 10px;width: 220px;}
 .search label{float: right;border: 1px solid #e53935;border-radius: 2px;color:#fff;margin: 0 0 10px 4px;padding: 2px;color:#e53935;cursor: pointer;font-size: 12px;}
 .search input[name='search']{display: none;}
 .search input[type="text"]{width: 172px;height: 30px;border: 1px solid #c9c9c9;line-height: 30px;padding: 0 8px;font-size: 12px;}

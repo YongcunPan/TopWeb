@@ -48,10 +48,14 @@
 .slideParBox .sL{background:url(../images/sl.png) no-repeat center center;left: -1px;}
 .slideParBox .sR{background:url(../images/sr.png) no-repeat center center;right: -1px;}
 
+.slideParBox .parBd li{display: none;}
+
 .slideChiBox{position: relative;margin-top: 44px;}
 .tempWrap{width: 1220px!important;}
-.slideChiBox .inbd{padding-bottom: 4px!important;}
-.slideChiBox .inbd li{display: inline-block;float: left;margin-right:43px;width: 272px;height: 200px;box-shadow: 2px 2px 4px #d6d5d5;}
+
+/*20170312*/
+.slideChiBox .inbd{padding-bottom: 4px!important;height: 200px;overflow: hidden;}
+.slideChiBox .inbd li{display: inline-block;float: left;margin-right:43px;width: 272px;height: 200px;box-shadow: 2px 2px 4px #d6d5d5;margin-bottom: 4px;}
 .slideChiBox .inbd img{width: 272px;height: 150px;}
 .slideChiBox .sPrev{position: absolute;left: -40px;top:74px;background: url(../images/icon-left.png) no-repeat center center;display: block;width:18px; height:34px;}
 .slideChiBox .sNext{position: absolute;right: -38px;top:74px;background: url(../images/icon-right.png) no-repeat center center;display: block;width:18px; height:34px;}

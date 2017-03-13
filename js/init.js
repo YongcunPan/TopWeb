@@ -19,7 +19,7 @@ function initauto() {
   });
   
   $(".slideParBox .slideChiBox").slide({ mainCell:"ul",vis:4,prevCell:".sPrev",nextCell:".sNext",effect:"leftLoop"});
-  jQuery(".slideParBox").slide({titCell:".parHd li",mainCell:".parBd"});
+  $(".slideParBox").slide({titCell:".parHd li",mainCell:".parBd"});
 
   $(".iListModule li a").mouseenter(function(){
     $(this).parent().addClass("on").siblings().removeClass("on");;
