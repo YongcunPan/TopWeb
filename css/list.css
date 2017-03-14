@@ -48,8 +48,9 @@
 .product dd:hover{background: #458ce8;}
 .product a{color: #fff;}
 
+/*20170314修改.itopimg和.summary对小图片宽高进行固定,并对是否有图片进行自适应*/
+.main-content .idetail .itopimg{margin:0px;width: 302px;height: 245px;margin-right: 30px;}
+.summary{overflow: hidden;}
 
-.main-content .idetail .itopimg{margin:0px;}
-.summary{width: 800px;}
 .ishare{margin-top: 20px;padding-top: 20px;border-top: 1px solid #ddd;}
 .imiddle{text-align: center;}

@@ -13,9 +13,9 @@ function initauto() {
   $(".slideBox").slide({autoPlay:true});
 
   // 背景图片
-  var  bgImg=["url(./images/icon_01.png) no-repeat center center","url(./images/icon_02.png) no-repeat center center","url(./images/icon_03.png) no-repeat center center","url(./images/icon_04.png) no-repeat center center","url(./images/icon_05.png) no-repeat center center","url(./images/icon_06.png) no-repeat center center","url(./images/icon_07.png) no-repeat center center","url(./images/icon_08.png) no-repeat center center"];
-  var  bgImgOn=["url(./images/icon_01-on.png) no-repeat center center","url(./images/icon_02-on.png) no-repeat center center","url(./images/icon_03-on.png) no-repeat center center","url(./images/icon_04-on.png) no-repeat center center","url(./images/icon_05-on.png) no-repeat center center","url(./images/icon_06-on.png) no-repeat center center","url(./images/icon_07-on.png) no-repeat center center","url(./images/icon_08-on.png) no-repeat center center"];
-  var bottomImgON=["url(./images/icon_on.png) no-repeat center center"];
+  var  bgImg=["url(./pages/web/images/icon_01.png) no-repeat center center","url(./pages/web/images/icon_02.png) no-repeat center center","url(./pages/web/images/icon_03.png) no-repeat center center","url(./pages/web/images/icon_04.png) no-repeat center center","url(./pages/web/images/icon_05.png) no-repeat center center","url(./pages/web/images/icon_06.png) no-repeat center center","url(./pages/web/images/icon_07.png) no-repeat center center","url(./pages/web/images/icon_08.png) no-repeat center center"];
+  var  bgImgOn=["url(./pages/web/images/icon_01-on.png) no-repeat center center","url(./pages/web/images/icon_02-on.png) no-repeat center center","url(./pages/web/images/icon_03-on.png) no-repeat center center","url(./pages/web/images/icon_04-on.png) no-repeat center center","url(./pages/web/images/icon_05-on.png) no-repeat center center","url(./pages/web/images/icon_06-on.png) no-repeat center center","url(./pages/web/images/icon_07-on.png) no-repeat center center","url(./pages/web/images/icon_08-on.png) no-repeat center center"];
+  var bottomImgON=["url(./pages/web/images/icon_on.png) no-repeat center center"];
   $(".slideBoxList").slide({
     startFun:function(i,c){
       $(".slideBoxList .bottomImg li").eq(i).addClass("active").siblings().removeClass("active");

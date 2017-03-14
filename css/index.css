@@ -35,8 +35,9 @@
 .slideBoxList .bd .rightDis h1{text-align: center;font-size: 24px;margin-bottom: 20px;line-height: 36px;color: #fff;}
 .slideBoxList .bd .rightDis p{text-indent: 2em;color: #bad5ff;line-height: 24px;font-size: 14px;}
 .slideBoxList .bd .rightDis ul{margin-top: 20px;width: 450px;}
-.slideBoxList .bd .rightDis ul li{display: inline-block;text-align: center;width: 138px;height: 48px;line-height: 48px;background: #3da3f4;float: left;margin:0 10px 10px 0;}
-.slideBoxList .bd .rightDis ul li a{color: #fff;font-size: 16px;}
+/*2017/03/14修改li,li a的样式，超出部分显示省略号*/
+.slideBoxList .bd .rightDis ul li{display: inline-block;text-align: center;width: 130px;height: 48px;padding: 0 4px;line-height: 48px;background: #3da3f4;float: left;margin:0 10px 10px 0;overflow: hidden;text-overflow: ellipsis;color: #fff;}
+.slideBoxList .bd .rightDis ul li a{color: #fff;font-size: 16px;white-space: nowrap;}
 .slideBoxList .bd img{width: 732px;height: 412px;}
 
 .slideParBox{margin-bottom: 100px;position: relative;}
