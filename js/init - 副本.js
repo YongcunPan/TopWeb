@@ -23,7 +23,6 @@ function initauto() {
         if (navigator.appName === 'Microsoft Internet Explorer') { 
           //判断浏览器内核是否为Trident内核IE8.0
           if (navigator.userAgent.match(/Trident/i) && navigator.userAgent.match(/MSIE 8.0/i)) { 
-            console.info('IE8');
             $(".slideBoxList .topImg li").each(function(m) {
               $(this).css("background",bgImg[m]);
             });
@@ -40,5 +39,8 @@ function initauto() {
   $(".iListModule li a").mouseenter(function(){
     $(this).parent().addClass("on").siblings().removeClass("on");;
   });
+  
+  // 详情页面底部列表滚动效果
+  $(".ilist-box").slide({autoPlay:true,vis:4,effect:"leftLoop"});
 
 }

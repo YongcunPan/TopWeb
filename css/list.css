@@ -40,6 +40,9 @@
 .main-content .idetail p{margin: 10px 0;}
 .main-content .idetail img{margin: 10px 0;}
 
+/*20170314修改：添加滚动效果后，定宽，超出部分隐藏*/
+.product{width: 1140px;overflow: hidden;}
+
 .product h4{line-height: 55px;margin:0 0 20px 0;}
 .product img{width: 242px;height: 150px;}
 .product li{display: inline-block;float: left;margin-right: 56px;}
