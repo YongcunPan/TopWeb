@@ -39,7 +39,7 @@ function initauto() {
   $(".iListModule li a").mouseenter(function(){
     $(this).parent().addClass("on").siblings().removeClass("on");;
   });
-  
+
   // 详情页面底部列表滚动效果
   $(".ilist-box").slide({autoPlay:true,vis:4,effect:"leftLoop"});
 

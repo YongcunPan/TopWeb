@@ -40,6 +40,6 @@ function initauto() {
     $(this).parent().addClass("on").siblings().removeClass("on");;
   });
 
-  $(".ilist-box").slide({autoPlay:true,vis:4,effect:"leftLoop"});
+  $(".ilist-box").slide({autoPlay:true,vis:4,prevCell:".sNext",nextCell:".sPrev",effect:"leftLoop"});
 
 }
